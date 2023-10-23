@@ -1,1 +1,61 @@
+/*body*/
 
+body{
+    background: rgb(39, 36, 36);
+}
+
+/****************************************atachments****************************************/
+
+.ds-f{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+/**********Button**********/
+
+.btn-l{
+
+}
+
+
+
+/****************************************Tops****************************************/
+
+
+/**nav**/
+.nav-1{
+    background: black;
+    color: white;
+    border-radius: 32px;
+    padding: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-1 li,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+}
+.nav-1-btn{
+    background: rgb(39, 35, 35);
+    border-radius: 12px;
+    padding: 4px 16px;
+    margin-right: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-1{
+        display: grid;
+    justify-content: center;
+    justify-items: center;
+
+    }
+
+    .ds-f{
+        display: block;
+    }
+}
